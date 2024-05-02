@@ -1,0 +1,142 @@
+html {
+	font-family: 'Open Sauce One', sans-serif;
+	font-size: 14px;
+	color: #303030;
+}
+
+.text-accent {
+	color: #10a315 !important;
+}
+
+.text-mute {
+	color: #9e9e9e !important;
+}
+/*HEADER*/
+.main-header {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+.header-logo {
+	width: 10rem;
+}
+
+.logo-register {
+	width: 20rem;
+}
+
+/*SECTION*/
+.main-logo {
+	text-align: center;
+}
+
+.main-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+}
+
+.form-daftar {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	border: solid;
+	border-width: 2px;
+	border-color: rgba(207, 207, 207, 0.45);
+
+	text-align: center;
+}
+
+.form-hp-email {
+	display: block;
+	text-align: left;
+}
+
+.button-google {
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	padding: 1rem;
+	border: solid;
+	border-width: 2px;
+	border-color: rgba(207, 207, 207, 0.45);
+	border-radius: 1rem;
+	background-color: white;
+}
+
+.logo-google {
+	width: 1rem;
+}
+
+.text-google {
+	width: 100%;
+	text-align: center;
+}
+
+.input-email {
+	display: inline-block;
+	width: 90%;
+
+	padding: 1rem;
+	border: solid;
+	border-width: 2px;
+	border-color: rgba(207, 207, 207, 0.45);
+	border-radius: 1rem;
+	background-color: white;
+}
+
+.button-daftar {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	border: solid;
+	border-width: 2px;
+	border-color: rgba(207, 207, 207, 0.45);
+	border-radius: 1rem;
+	background-color: #edfcff;
+}
+/*FOOTER*/
+.main-footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+/*mobile*/
+@media (min-width: 576px) {
+	html {
+		font-size: 10px;
+	}
+
+	.main-section {
+		flex-direction: column;
+	}
+}
+
+/*tablet*/
+@media (min-width: 768px) {
+	html {
+		font-size: 12px;
+	}
+
+	.main-section {
+		flex-direction: row;
+	}
+}
+
+/*laptop*/
+@media (min-width: 992px) {
+	html {
+		font-size: 14px;
+	}
+
+	.main-section {
+		flex-direction: row;
+	}
+}
